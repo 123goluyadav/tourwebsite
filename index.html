@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tour amd travel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div id="menu-bar" class="fa fa-bars"></div>
+
+        <a href="#" class="logo"><span>T</span>ravel</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="icons">
+            <i class="fa fa-search" id="search-button"></i>
+            <i class="fa fa-user" id="login-button"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here....">
+            <label for="search-bar" class="fa fa-search"></label>
+        </form>
+
+
+    </header>
+
+
+    <div class="login-form-container">
+
+        <i class="fa fa-close" id="form-close"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="Enter your email">
+            <input type="password" class="box" placeholder="Enter your password">
+            <input type="submit" value="login now" class="button">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password?<a heaf="#">click here</a></p>
+            <p>don't have and account?<a href="#">register</a></p>
+        </form>
+
+    </div>
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>mera madhya pradesh</h3>
+            <p> discover new places with us, adventure awaits</p>
+            <a href="#" class="button">discover more</a>
+
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/mp1.mp4"></span>
+            <span class="vid-btn" data-src="images/mp7.mp4"></span>
+            <span class="vid-btn" data-src="images/mp5.mp4"></span>
+            <span class="vid-btn" data-src="images/mp8.mp4"></span>
+            <span class="vid-btn" data-src="images/mp11.mp4"></span>
+            <span class="vid-btn" data-src="images/video1.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="images/mp1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </section>
+
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+        <div class="row">
+
+            <div class="image">
+                <img src="mp img4.jpg" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="button" value="book now">
+            </form>
+        </div>
+    </section>
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/bhopal.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fa fa-map-marker-alt"></i><a href="bhopal.html">bhopal</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, vel!</p>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="button">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/indore img.webp" alt="">
+                <div class="content">
+                    <h3><i class="fa fa-map-marker-alt"></i><a href="indore.html">indore</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, vel!</p>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="button">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/ujjain 2.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fa fa-map-marker-alt"></i><a href="ujjain.html">ujjain</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, vel!</p>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="button">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/Omkareshwar.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fa fa-map-marker-alt"></i><a href="omkareshwar.html">omkareshwar</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, vel!</p>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="button">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/dewas.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fa fa-map-marker-alt"></i><a href="dewas.html">dewas</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, vel!</p>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="button">book now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/panch.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fa fa-map-marker-alt"></i><a href="Pachmarhi.html">Pachmarhi</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, vel!</p>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="button">book now</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="services" id="services">
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fa fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur </p>
+            </div>
+            <div class="box">
+                <i class="fa fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur </p>
+            </div>
+            <div class="box">
+                <i class="fa fa-bullhorn"></i>
+                <h3>safty guide</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur </p>
+            </div>
+            <div class="box">
+                <i class="fa fa-globe-asia"></i>
+                <h3>around the india</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur </p>
+            </div>
+            <div class="box">
+                <i class="fa fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur </p>
+            </div>
+            <div class="box">
+                <i class="fa fa-hiking"></i>
+                <h3>advanture</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur </p>
+            </div>
+        </div>
+    </section>
+    <section class="gallery" id="gallery">
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="image/m1.jpg" alt="">
+                <div class="content">
+                    <h3>Mandu</h3>
+                    <p>Mandu, a city located in the Malwa region of Madhya Pradesh, is the epitome of architectural
+                        excellence.</p>
+                    <a href="#" class="button">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/m2.jpg" alt="">
+                <div class="content">
+                    <h3>Sanchi</h3>
+                    <p>Located in Madhya Pradesh, the Buddhist monuments of Sanchi are one of the oldest stone
+                        structures in India.</p>
+                    <a href="#" class="button">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/m3.jpg" alt="">
+                <div class="content">
+                    <h3>Pachmarhi</h3>
+                    <p>Pachmarhi is the only hill station & the highest point in Madhya Pradesh.Pachmarhi is also often
+                        known as the "Queen of the Satpura Range". </p>
+                    <a href="#" class="button">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/m4.jpg" alt="">
+                <div class="content">
+                    <h3>Rajwada</h3>
+                    <p>Rajwada, also known as the Holkar Palace or Old Palace, is an important historical palace in
+                        Indore </p>
+                    <a href="#" class="button">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/m6.jpg" alt="">
+                <div class="content">
+                    <h3>Bhedaghat,Jabalpur</h3>
+                    <p>Bhedaghat is known for the Dhuandar Falls (Dhuan means smoke and Dhar means flow), a huge cascade
+                        of water that falls from a height of 98 feet</p>
+                    <a href="#" class="button">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/m5.jpg" alt="">
+                <div class="content">
+                    <h3>Gwalior Fort</h3>
+                    <p>The Gwalior Fort, commonly known as the Gwālīyar Qila, is a hill fort near Gwalior, Madhya
+                        Pradesh, India.</p>
+                    <a href="#" class="button">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/m7.webp" alt="">
+                <div class="content">
+                    <h3>Mahakal Lok</h3>
+                    <p>Visit Ujjain's Mahakal Lok and Its Nearby Places for A Blessed Trip Later on the day.</p>
+                    <a href="#" class="button">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/khajuraho m8.jpg" alt="">
+                <div class="content">
+                    <h3>khajuraho</h3>
+                    <p>Khajuraho,located in Madhya Pradesh, is known around the world for its stunning temples adorned
+                        by erotic and sensuous carvings. </p>
+                    <a href="#" class="button">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/m9.jpg" alt="">
+                <div class="content">
+                    <h3>Bandhavgarh</h3>
+                    <p>Bandhavgarh National Park is world-renowned as a tiger reserve and it is known to have the
+                        highest density of Bengal tigers in the world.</p>
+                    <a href="#" class="button">see more</a>
+
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/MAHESHWAR.jpg" alt="">
+                <div class="content">
+                    <h3>MAHESHWAR</h3>
+                    <p>Located on the banks of the River Narmada, this gorgeous town is largely referred to as the
+                        temple town of Madhya Pradesh.</p>
+                    <a href="#" class="button">see more</a>
+
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/BHIMBETKA.jpg" alt="">
+                <div class="content">
+                    <h3>BHIMBETKA</h3>
+                    <p>The Bhimbetka rock shelters are an archaeological site, exhibiting the earliest traces of human
+                        life on the Indian subcontinent.</p>
+                    <a href="#" class="button">see more</a>
+
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/m10.jpg" alt="">
+                <div class="content">
+                    <h3>Hanuwantiya</h3>
+                    <p>Hanuwantiya is one of the islands amongst the archipelago situated in the Indira Sagar river.
+                        Hanumantia island is developed by Madhya Pradesh Tourism Development Corporation. </p>
+                    <a href="#" class="button">see more</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="review" id="review">
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="image/p1.jpg" alt="">
+                        <h3>ritika maratha</h3>
+                        <p>It ia a good web site to find more palace to vist madhya pradesh</p>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="image/p2.jpg" alt="">
+                        <h3>golu yadav</h3>
+                        <p>more helps to find new place and give road map to vist (M.P)</p>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="image/p3.jpg" alt="">
+                        <h3>tanish padlaya</h3>
+                        <p>wonderfull website to help in travellig madhya pradesh</p>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="image/p4.jpg" alt="">
+                        <h3>payal choudhary</h3>
+                        <p>yes it is a good website to resarch and vist the madhya pradesh</p>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="contact" id="contact">
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="image/t2.jpg" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="button" value="send message">
+            </form>
+        </div>
+
+    </section>
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>about us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, distinctio.</p>
+            </div>
+            <div class="box">
+                <h3>banch location</h3>
+                <a href="#">india</a>
+                <a href="#">USA</a>
+                <a href="#">Japan</a>
+                <a href="#">Srilanka</a>
+                <a href="#">America</a>
+                <a href="#">France</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">book</a>
+                <a href="#">packages</a>
+                <a href="#">services</a>
+                <a href="#">gallery</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i> facebook</a>
+                <a href="#"><i class="fab fa-instagram"></i> instagram</a>
+                <a href="#"><i class="fab fa-twitter"></i> twitter</a>
+                <a href="#"><i class="fab fa-linkedin"></i> linkedin</a>
+            </div>
+
+        </div>
+        <h1 class="credit">created by <span>mr.golu yadav</span> ! all right reserved !</h1>
+
+    </section>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
